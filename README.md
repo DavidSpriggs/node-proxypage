@@ -24,7 +24,7 @@ ProxyPage is designed to be the simplest way possible to proxy cross domain http
 In express:
 ```javascript
 var express = require('express');
-var proxyPage = require('proxypage');
+var proxypage = require('proxypage');
 
 var app = express();
 
@@ -37,5 +37,5 @@ app.listen(app.get('port'), function() {
 	console.log('Express server listening on port ' + app.get('port'));
 });
 
-//test: http://localhost:3000/proxy?https://www.arcgis.com/sharing/rest/search?num=20&start=0&sortField=numViews&sortOrder=desc&q=owner%3ADavidSpriggs&f=json
+//test: http://localhost:3000/proxy?http://www.arcgis.com/sharing/rest/search?num=20&start=0&sortField=numViews&sortOrder=desc&q=owner%3ADavidSpriggs&f=json
 ```

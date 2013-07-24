@@ -1,7 +1,7 @@
 // proxy page implimentation by David Spriggs
 
 var express = require('express');
-var proxyPage = require('proxypage');
+var proxypage = require('proxypage');
 
 var app = express();
 
