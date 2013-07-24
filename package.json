@@ -1,0 +1,28 @@
+{
+  "name": "proxypage",
+  "description": "Proxy page for cross domain http requests. Supports GET and POST",
+  "tags": [
+    "http",
+    "proxy",
+    "proxypage",
+    "utility",
+    "cross",
+    "domain"
+  ],
+  "version": "0.0.1",
+  "author": "David Spriggs <spriggs.d@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/DavidSpriggs/proxypage.git"
+  },
+  "bugs": {
+    "url": "http://github.com/DavidSpriggs/proxypage/issues"
+  },
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "proxypage.js",
+  "dependencies": {
+    "request": "2.25.0"
+  }
+}
