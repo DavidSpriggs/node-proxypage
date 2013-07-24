@@ -13,13 +13,13 @@ Or from source:
 
 <pre>
   git clone git://github.com/DavidSpriggs/proxypage.git 
-  cd proxyPage
+  cd proxypage
   npm link
 </pre>
 
 ## Super simple to use
 
-ProxyPage is designed to be the simplest way possible to proxy cross domain http calls.
+Proxypage is designed to be the simplest way possible to proxy cross domain http calls.
 
 In express:
 ```javascript
