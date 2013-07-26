@@ -1,4 +1,4 @@
-proxypage
+node-proxypage
 =========
 
 Simple proxy page for node.js to proxy cross doamin reqeuest, supports GET and POST.
