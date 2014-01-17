@@ -25,7 +25,7 @@ app.use(express.bodyParser());
 
 app.all('/proxy', proxypage.proxy);
 
-//or to memic an .aspx page:
+//or to mimic an .aspx page:
 //app.all('/proxy/proxy.aspy', proxypage.proxy);
 
 app.listen(app.get('port'), function() {
