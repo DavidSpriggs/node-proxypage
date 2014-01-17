@@ -9,7 +9,7 @@
     "cross",
     "domain"
   ],
-  "version": "0.0.1",
+  "version": "0.1.1",
   "author": "David Spriggs <spriggs.d@gmail.com>",
   "repository": {
     "type": "git",
@@ -23,6 +23,6 @@
   ],
   "main": "proxypage.js",
   "dependencies": {
-    "request": "2.25.0"
+    "request": "*"
   }
 }

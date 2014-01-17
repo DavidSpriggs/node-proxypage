@@ -1,21 +1,13 @@
 node-proxypage
 =========
 
-Simple proxy page for node.js to proxy cross doamin reqeuest, supports GET and POST.
+Simple proxy page for node.js and express to proxy cross doamin reqeuest, supports GET and POST.
 
 ## Install
 
-<pre>
+```
   npm install proxypage
-</pre>
-
-Or from source:
-
-<pre>
-  git clone git://github.com/DavidSpriggs/proxypage.git 
-  cd proxypage
-  npm link
-</pre>
+```
 
 ## Super simple to use
 
@@ -32,6 +24,9 @@ app.set('port', 3000);
 app.use(express.bodyParser());
 
 app.all('/proxy', proxypage.proxy);
+
+//or to memic an .aspx page:
+//app.all('/proxy/proxy.aspy', proxypage.proxy);
 
 app.listen(app.get('port'), function() {
 	console.log('Express server listening on port ' + app.get('port'));

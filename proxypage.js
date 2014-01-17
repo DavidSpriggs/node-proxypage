@@ -17,7 +17,7 @@ exports.proxy = function(req, res) {
 		request({
 			method: 'POST',
 			url: url,
-			qs: req.body
+			form: req.body
 		}).pipe(res);
 	} else {
 		res.jsonp({
